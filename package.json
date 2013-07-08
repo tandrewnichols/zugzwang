@@ -4,7 +4,7 @@
 	"private": "true",
 	"scripts": {
 		"start": "node app -d",
-		"test": "mocha -c -u tdd -R spec"
+		"test": "mocha -c -u tdd -R Spec"
 	},
 	"author": "Andrew Nichols <tandrewnichols@gmail.com>",
 	"dependencies": {
