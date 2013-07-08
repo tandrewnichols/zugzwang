@@ -1,0 +1,24 @@
+{
+	"name": "Zugazwang",
+	"version": "0.1.0",
+	"private": "true",
+	"scripts": {
+		"start": "node app -d",
+		"test": "mocha -c -u tdd -R spec"
+	},
+	"author": "Andrew Nichols <tandrewnichols@gmail.com>",
+	"dependencies": {
+		"optimist": "0.3.x",
+		"express": "3.x.x",
+		"bcrypt": "0.7.x",
+		"neo4j": "0.2.x",
+		"swig": "0.13.x",
+		"consolidate": "0.9.x",
+		"underscore": "1.4.x",
+		"async": "0.2.x",
+		"mocha": "1.12.x",
+		"randomstring": "1.0.x",
+		"dateformat": "1.0.x",
+		"node-uuid": "1.4.x"
+	}
+}
