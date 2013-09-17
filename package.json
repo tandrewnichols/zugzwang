@@ -1,24 +1,34 @@
 {
-	"name": "Zugazwang",
+	"name": "Zugzwang",
 	"version": "0.1.0",
 	"private": "true",
 	"scripts": {
-		"start": "node app -d",
-		"test": "mocha -c -u tdd -R Spec"
+		"start": "NODE_ENV=production node app -w warn -l /var/log/zugzwang/startup.log",
+		"test": "mocha -c -u bdd -R Spec -t 5000",
+		"debug": "NODE_ENV=development node app -w info",
+		"profile": "node app -p"
 	},
 	"author": "Andrew Nichols <tandrewnichols@gmail.com>",
 	"dependencies": {
 		"optimist": "0.3.x",
 		"express": "3.x.x",
 		"bcrypt": "0.7.x",
-		"neo4j": "0.2.x",
 		"swig": "0.13.x",
 		"consolidate": "0.9.x",
 		"underscore": "1.4.x",
 		"async": "0.2.x",
 		"mocha": "1.12.x",
 		"randomstring": "1.0.x",
-		"dateformat": "1.0.x",
-		"node-uuid": "1.4.x"
+		"moment": "2.1.x",
+		"node-uuid": "1.4.x",
+		"cluster": "0.7.x",
+		"MD5": "1.1.x",
+		"node-persist": "0.0.x",
+		"winston": "0.7.x",
+		"should": "1.2.x",
+		"mongoose": "3.5.x",
+		"gm": "1.6.x",
+		"socket.io": "0.9.x",
+		"piler": "0.5.x"
 	}
 }

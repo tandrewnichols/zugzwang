@@ -1,0 +1,304 @@
+.icon-globe-scribe,
+.icon-books-blue-scribe, 
+.icon-cog-scribe, 
+.icon-wrench.scribe, 
+.icon-help-scribe, 
+.icon-headset-scribe, 
+.icon-camera-scribe, 
+.icon-keyboard-scribe, 
+.icon-floppy-scribe, 
+.icon-ipod-scribe, 
+.icon-printer-scribe, 
+.icon-pen-scribe, 
+.icon-edit-scribe, 
+.icon-paste-scribe, 
+.icon-home1-scribe, 
+.icon-author-scribe, 
+.icon-new-author-scribe, 
+.icon-music-scribe, 
+.icon-system-scribe, 
+.icon-author-64-scribe, 
+.icon-pencil-lg-scribe, 
+.icon-dice-scribe, 
+.icon-logout-scribe, 
+.icon-world-builder-scribe, 
+.icon-search-scribe, 
+.icon-world-settings-scribe, 
+.icon-star-scribe, 
+.icon-books-red-scribe, 
+.icon-exclam-red-scribe, 
+.icon-exclam-orange-scribe, 
+.icon-exclam-yellow-scribe, 
+.icon-heart-scribe, 
+.icon-books-stack-scribe, 
+.icon-book-scribe, 
+.icon-map-compass-scribe, 
+.icon-home2-scribe, 
+.icon-info-scribe, 
+.icon-error-orange-scribe, 
+.icon-error-red-scribe, 
+.icon-new-book-scribe, 
+.icon-download-scribe, 
+.icon-help-contents-scribe, 
+.icon-new-tab-scribe{
+	background: url(../images/sprites.png) no-repeat;
+}
+
+.icon-globe-scribe{
+	background-position: -16px -15px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-books-blue-scribe{
+	background-position: -63px -15px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-cog-scribe{
+	background-position: -209px -16px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-wrench.scribe{
+	background-position: -113px -16px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-help-scribe{
+	background-position: -14px -67px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-headset-scribe{
+	background-position: -163px -65px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-camera-scribe{
+	background-position: -114px -60px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-keyboard-scribe{
+	background-position: -263px -64px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-floppy-scribe{
+	background-position: -14px -116px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-ipod-scribe{
+	background-position: -61px -115px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-printer-scribe{
+	background-position: -264px -115px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-pen-scribe{
+	background-position: -261px -14px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-edit-scribe{
+	background-position: -213px -64px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-paste-scribe{
+	background-position: -163px -14px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-home1-scribe{
+	background-position: -312px -13px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-author-scribe{
+	background-position: -114px -113px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-new-author-scribe{
+	background-position: -164px -113px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-music-scribe{
+	background-position: -310px -61px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-system-scribe{
+	background-position: -312px -113px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-author-64-scribe{
+	background-position: -523px -163px ;
+	width: 64px;
+	height: 64px;
+}
+
+.icon-pencil-lg-scribe{
+	background-position: -486px -13px ;
+	width: 128px;
+	height: 128px;
+}
+
+.icon-dice-scribe{
+	background-position: -212px -112px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-logout-scribe{
+	background-position: -61px -64px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-world-builder-scribe{
+	background-position: -14px -162px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-search-scribe{
+	background-position: -64px -161px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-world-settings-scribe{
+	background-position: -116px -157px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-star-scribe{
+	background-position: -163px -157px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-books-red-scribe{
+	background-position: -212px -158px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-exclam-red-scribe{
+	background-position: -311px -160px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-exclam-orange-scribe{
+	background-position: -401px -13px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-exclam-yellow-scribe{
+	background-position: -402px -59px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-heart-scribe{
+	background-position: -358px -155px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-books-stack-scribe{
+	background-position: -358px -65px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-book-scribe{
+	background-position: -356px -12px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-map-compass-scribe{
+	background-position: -444px -58px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-home2-scribe{
+	background-position: -444px -12px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-info-scribe{
+	background-position: -260px -160px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-error-orange-scribe{
+	background-position: -402px -100px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-error-red-scribe{
+	background-position: -403px -154px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-new-book-scribe{
+	background-position: -358px -107px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-download-scribe{
+	background-position: -445px -103px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-help-contents-scribe{
+	background-position: -443px -156px ;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-new-tab-scribe{
+	background-position: -14px -200px ;
+	width: 24px;
+	height: 24px;
+}
+

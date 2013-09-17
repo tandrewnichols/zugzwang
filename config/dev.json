@@ -1,0 +1,11 @@
+{
+	"mongo": {
+		"connection": "mongodb://localhost/zugzwang"
+	},
+	"logpath": "/var/log/wgbc",
+	"uploadDir": "/var/tmp/wgbc",
+	"secrets": {
+		"session": "1rzhCAe4rvTN1U350XYfKKjkoL6iJ2qM",
+		"cookie": "fZ6sQLKB3NnpfxSX"
+	}
+}
