@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="zugzwang">
+	<head>
+		<title>{% block title -%}{{ title.page }}|{{ title.brand|default("Zugzwang") }} - {{ title.tag|default("An online chess community") }}{%- endblock %}</title>
+		{% block meta -%}
+		<meta name="desciption" content="{{ meta.description|default('A church committed to making disciples who make disciples who . . . ') }}">
+		<meta name="author" content="Andrew Nichols">
+		<meta name="keywords" content="{{ meta.keywords|default('social networking, chess, play chess, turn-based chess, chess community') }}">
+		{% endblock %}
+		
+		{{ css }}
+	</head>
+	<body>
+		{% block content %}{% endblock %}
+		{{ js }}
+	</body>
+</html>

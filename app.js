@@ -48,7 +48,9 @@ var logger = winston.loggers.get('main');
 var cpus = os.cpus().length || 1
   , js = piler.createJSManager()
   , css = piler.createCSSManager();
-mongoose.connect(config.mongo.connection);
+mongoose.connect(config.mongo.connection, function onMongooseError(err) {
+	if(err) winston.error(err);
+});
 utils.extendPrototypes();
 var dirs = ['/var/tmp/zugzwang', '/var/log/zugzwang'];
 if (argv.logpath) dirs.push(argv.logpath);
