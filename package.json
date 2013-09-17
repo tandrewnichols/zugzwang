@@ -13,7 +13,7 @@
 		"optimist": "0.3.x",
 		"express": "3.x.x",
 		"bcrypt": "0.7.x",
-		"swig": "0.13.x",
+		"swig": "1.0.x",
 		"consolidate": "0.9.x",
 		"underscore": "1.4.x",
 		"async": "0.2.x",

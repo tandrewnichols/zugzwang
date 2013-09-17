@@ -8,10 +8,20 @@
 		<meta name="keywords" content="{{ meta.keywords|default('social networking, chess, play chess, turn-based chess, chess community') }}">
 		{% endblock %}
 		
-		{{ css }}
+		{% block stylesheets %}
+		<link rel="stylesheet" href="/bootstrap/css/bootstrap.cerulean.min.css">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/sprites.css">
+		{% block scripts %}
+		<script type="text/javascript" src="/scripts/lib/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="/scripts/lib/jquery-ui/js/jquery-ui-1.10.2.min.js"></script>
+		<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/scripts/lib/angular.min.js"></script>
+		<script type="text/javascript" src="/scripts/app.js"></script>
+		<script type="text/javascript" src="/scripts/controllers/home.js"></script>
+		{% block scripts %}
 	</head>
 	<body>
 		{% block content %}{% endblock %}
-		{{ js }}
 	</body>
 </html>
