@@ -21,7 +21,9 @@ var express = require('express')
   
 // Installed modules
 var cons = require('consolidate')
-  , swig = require('swig')
+  , swig = new require('swig').Swig({
+  		varControls: ['[[', ']]']
+  	})
   , async = require('async')
   , cluster = require('cluster')
   , mongoose = require('mongoose')
@@ -55,18 +57,14 @@ utils.extendPrototypes();
 var dirs = ['/var/tmp/zugzwang', '/var/log/zugzwang'];
 if (argv.logpath) dirs.push(argv.logpath);
 utils.checkdir(dirs);
-swig.init({ 
-	root: path.join(__dirname, 'views'),
-	allowErrors: true,
-	filters: require(path.join(__dirname, 'lib/filters.js'))
-});
+
 
 // Configure app
 app.configure(function(){
 	js.bind(app, server);
 	css.bind(app, server);
 	app.set('port', process.env.PORT || process.env.NODE_PORT || 3000);
-	app.engine('html', cons.swig)
+	app.engine('html', swig.renderFile)
 	app.set('view engine', 'html');
 	app.set('views', path.join(__dirname, '/views'));
 	app.set('view options', {layout: false});

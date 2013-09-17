@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('arena', ['PingPongFilters']).
-	config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+var app = angular.module('zugzwang', [])
+	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 	$routeProvider.
 	when('/matches', {
 			templateUrl: 'partials/match-list.html',
